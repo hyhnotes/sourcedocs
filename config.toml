@@ -1,6 +1,6 @@
 baseURL = "https://hyhnotes.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "知之为知之，不知为不知，是知也"
 
 theme = "hugo-octopress"
 
@@ -43,28 +43,26 @@ post = "/blog/:year-:month-:day-:title/" # change the post URL to look like the 
   sidebarRecentLimit = 5
 
   # Sidebar header - passed to markdownify so you can write markdown here
-  sidebarHeader = "Sidebar Header"
+  sidebarHeader = "Yihan He"
 
   # Sidebar text also supports markdown
   # New lines can be added with </br> or normal markdown (two spaces at the end of line or two new lines).
   # when adding two new lines, remember to remove the indentation otherwise the new line will be treated as a codeblock
-  sidebarText = """Here's a [link to google](https://www.google.com)
+  sidebarText = """I hope the most important things are write down in this blog and keep they updated as time going. The things include:
   </br>
-  Second line
+    - reviewing of topics that i think interesting
   </br>
-  Third line
-  This line has two spaces in the end to create a new line using markdown
-  Forth line
+    - papers, posts or books which are important or which have inspired me
   """
   # Sidebar menu - if true will add a sidebar menu between sidebar text and recent posts
   sidebarMenuEnabled = true
-  sidebarMenuHeader = "Sidebar Links"
+  sidebarMenuHeader = "Important Posts"
 
   # sidebar links
-  github = "https://github.com/parsiya/"
-  bitbucket = "https://bitbucket.org/parsiya/"
-  twitter = "https://twitter.com/cryptogangsta/"
-  keybase = "https://keybase.io/parsiya/"
+  github = "https://github.com/hyhnotes"
+  bitbucket = ""
+  twitter = ""
+  keybase = ""
   stackoverflow = ""
   linkedin = ""
   googleplus = ""
@@ -82,10 +80,10 @@ post = "/blog/:year-:month-:day-:title/" # change the post URL to look like the 
   truncate = true
 
   # Author's name (appears in meta tags and under posts)
-  author = "Author's name"
+  author = "heyh"
 
   # This text appears in the site header under website title
-  subtitle = "Subtitle appears under website title"
+  subtitle = "Notes about programming, ML, math"
 
   # Search engine URL
   searchEngineURL = "https://www.google.com/search"
@@ -139,33 +137,17 @@ post = "/blog/:year-:month-:day-:title/" # change the post URL to look like the 
   URL = "/"
   weight = -5
 
-[[menu.main]]
-  Name = "Google"
-  URL = "https://www.google.com/"
-  weight = -5
-
-[[menu.main]]
-  Name = "This theme on Github"
-  URL = "https://www.github.com/parsiya/hugo-octopress"
-
-
 # Sidebar menus
 # Enable with "sidebarMenuEnabled = true" under [params]
 # Header text is "sidebarMenuHeader" under [params]
 [[menu.sidebar]]
-  Name = "Google"
-  URL = "https://www.google.com"
-  weight = 0
-
+  Name = "Top Readings"
+  URL = "/blog/2017-10-18-top-readings"
+  weight = -2
 [[menu.sidebar]]
-  Name = "Hugo"
-  URL = "/categories/hugo/"
+  Name = "Quotes"
+  URL = "/blog/2017-10-17-quotes"
   weight = 1
-
-[[menu.sidebar]]
-  Name = "Homepage"
-  URL = "/"
-  weight = 2
 
 # Blackfriday is Hugo's markdown engine. Options are at: https://gohugo.io/overview/configuration/#configure-blackfriday-rendering
 [blackfriday]
