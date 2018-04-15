@@ -17,10 +17,17 @@ https://repl.it/
 一个简单的hello示例，https://repl.it/@heyihan/OverduePeskyPlots
 
 ### 学习基本语法
+Python有三种基本数据结构，数字、字符串、列表。
+
+数字可以进行+、-、*、/操作, 字符串和列表可以进行拼接和截取操作。
+
+示例，https://repl.it/@heyihan/WellmadeDrabCurrency
+
+详情文档见 https://docs.python.org/3/tutorial/introduction.html
+
+Homework，实现3.2节中的打印斐波那契数
 
 ### 输入输出
-
-### 字符串操作
 
 ### 挑战
 用python通关这个网站，http://www.pythonchallenge.com/
